@@ -1,15 +1,59 @@
 body{
     margin: 0;
-}
-main{
     background: #E5E5E5;
+}
+header{
+    background:linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
 }
 .container{
     margin: auto;
     width: 80%;
 }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__number{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__number p{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+.navbar__number img{
+    width: 20px;
+    height: 20px;
+}
+.navbar__city{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 300px;
+}
+.navbar__city p{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.navbar__city img{
+    width: 15px;
+    height: 25px;
+}
+.navbar__link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar__link a{
+    color: white;
+    text-decoration: 0;
+    cursor: pointer;
+}
 .evarugs{
-    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,9 +124,38 @@ main{
 }
 .reviews_cards{
     display: flex;
+    margin-left: 10px;
 }
 .reviews{
     margin-top: 15%;
     background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
-    ;
+    height: 45vh;
+}
+footer{
+    background: white;
+    height: 50vh;
+}
+.footer__navbar{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.footer__link h2{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer__num p{
+    margin-top: 20px;
+}
+.footer__num h2{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer__info h2{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
 }
