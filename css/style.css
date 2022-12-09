@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+main{
+    background: #E5E5E5;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+.evarugs{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.eva_logo{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.evarugs_info{
+    display: flex;
+    gap: 25px;
+}
+.evarugs_info a {
+    color: #737373;
+    text-decoration: none;
+}
+.banner{
+    background: url(/assets/images/подложка\ 1.png);
+    object-fit: cover;
+}
+.banner_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner_title h1{
+    font-size: 50px;
+    line-height: 59px;
+    font-weight: 900;
+}
+.banner_title p {
+    font-weight: 300;
+    font-size: 24px;
+}
+.banner_title button{
+    width: 179px;
+    height: 53px;
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    border: 0;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.eva{
+    background: url(/assets/images/для\ фона.png);
+    object-fit: cover;
+}
+.eva h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+}
+.evas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.eva_cards{
+    width: 344px;
+    height: 414px;
+    background: white;
+    border-radius: 9px;
+    text-align: center;
+    padding: 7px 7px;
+    box-shadow: 0 0 5px palevioletred;
+}
+.reviews_cards{
+    display: flex;
+}
+.reviews{
+    margin-top: 15%;
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+    ;
+}
